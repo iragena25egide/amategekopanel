@@ -28,7 +28,7 @@ import QuizesManagement from './components/super-tables/quizes-management';
 import ReportManagement from './components/super-tables/reports';
 import UserManagement from './components/super-tables/user-management';
 import Prox from './components/super-tables/Super_profile';
-import NotifReview from './components/notification';
+import NotiReview from './components/notification';
 
 
 
@@ -119,7 +119,7 @@ const App = () => {
           <Sidebar userRole={userRole} />
         </div>
         <div className="flex-1 px-2 bg-gray-100">
-          <NotifReview userRole={userRole}/>
+          <NotiReview/>
         </div>
       </div>
     );
