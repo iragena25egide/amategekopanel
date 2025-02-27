@@ -29,6 +29,7 @@ import ReportManagement from './components/super-tables/reports';
 import UserManagement from './components/super-tables/user-management';
 import Prox from './components/super-tables/Super_profile';
 import NotifReview from './components/notification';
+import Notification from "./components/Notification";
 
 
 
